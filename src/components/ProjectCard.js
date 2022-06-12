@@ -16,10 +16,10 @@ const ProjectCard = ({ project }) => {
             <p>{project.smallDesc}</p>
           </div>
         </div>
-        <SkillList skills={project.skills} />
       </div>
     </div>
   );
 };
+//        <SkillList skills={project.skills} />
 
 export default ProjectCard;
