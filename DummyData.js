@@ -3,18 +3,14 @@ export const data = [
         title: "Musical Joycons",
         img:"",
         smallDesc:"I didn adkfal dakdl;",
-        skills:["C++","C"]
+        skills:[{name:"C++", id:"1"},{name:"C++", id:"2"}],
+        id:2
     },
     {
         title: "Musical Joycons",
         img:"",
         smallDesc:"I didn adkfal dakdl;",
-        skills:["C++","C"]
-    },
-    {
-        title: "Musical Joycons",
-        img:"",
-        smallDesc:"I didn adkfal dakdl;",
-        skills:["C++","C"]
+        skills:[{name:"C++", id:"1"},{name:"C++", id:"2"}],
+        id:2
     },
 ];
