@@ -1,3 +1,5 @@
+import SkillList from "./SkillList";
+
 const ProjectCard = ({ project }) => {
   return (
     <div className="col-xs-12 col-sm-12 col-md-6 col-lg4 col-sm-12 col-xs-12">
@@ -14,18 +16,10 @@ const ProjectCard = ({ project }) => {
             <p>{project.smallDesc}</p>
           </div>
         </div>
-
-        <div className="card skills">
-          <div class="card-header">Skills</div>
-          <ul>
-            {project.skills.map(function (skill) {
-              return <li>{skill}</li>;
-            })}
-          </ul>
-        </div>
       </div>
     </div>
   );
 };
+//        <SkillList skills={project.skills} />
 
 export default ProjectCard;

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "sarossilli",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/home/srossill/sarossil.li/amplify/backend/api/sarossilli/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}

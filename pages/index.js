@@ -1,17 +1,15 @@
-import { data } from "../DummyData";
-import ProjectCard from "../src/components/ProjectCard";
+import ProjectCardList from "../src/components/ProjectCardList";
+import Navbar from "../src/components/Navbar";
+
+import Amplify, { Auth, API } from "aws-amplify";
+import awsconfig from "../src/aws-exports";
+Amplify.configure(awsconfig);
+
 const index = () => {
-  console.log(data);
   return (
     <div>
-      <h1>Sarossilli</h1>
-      <div className="container projects-list">
-        <div className="row">
-          {data.map(function (p) {
-            return <ProjectCard project={p}></ProjectCard>;
-          })}
-        </div>
-      </div>
+      <Navbar />
+      <ProjectCardList />
     </div>
   );
 };
