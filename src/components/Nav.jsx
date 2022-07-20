@@ -4,20 +4,20 @@ import Image from "next/image"
 
 function Nav() {
   return (
-    <Navbar>
-      <Container>
-        <Navbar.Brand href="#home">
-          <Image
-            alt=""
-            src="/logo.svg"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />{" "}
-          React Bootstrap
-        </Navbar.Brand>
-      </Container>
-    </Navbar>
+    <Navbar bg="dark" variant="dark">
+    <Container>
+      <Navbar.Brand href="#home">
+        <img
+          alt=""
+          src="/logo.svg"
+          width="30"
+          height="30"
+          className="d-inline-block align-top"
+        />{' '}
+        React Bootstrap
+      </Navbar.Brand>
+    </Container>
+  </Navbar>
   );
 }
 
