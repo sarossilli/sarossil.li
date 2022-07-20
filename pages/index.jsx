@@ -1,12 +1,12 @@
 import ProjectCardList from "../src/components/ProjectCardList";
-import Navbar from "../src/components/Navbar";
+import Nav from "../src/components/Nav";
+import App from "next/app";
 
 const index = () => {
   return (
-    <div>
-      <Navbar />
-      <ProjectCardList />
-    </div>
+    <>
+      <Nav />
+    </>
   );
 };
 export default index;
