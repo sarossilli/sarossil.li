@@ -1,9 +1,9 @@
-import Nav from "../src/components/Nav";
+import NavigationBar from "../src/components/Nav";
 
 const index = () => {
   return (
     <>
-      <Nav />
+      <NavigationBar />
     </>
   );
 };
