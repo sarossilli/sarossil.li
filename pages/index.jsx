@@ -1,10 +1,7 @@
-import NavigationBar from "../src/components/Nav";
-
+import App from "../src/App";
 const index = () => {
   return (
-    <>
-      <NavigationBar />
-    </>
+    <App/>
   );
 };
 export default index;
